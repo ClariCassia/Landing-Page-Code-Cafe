@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" href="./src/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="src/css/responsive.css">
@@ -35,29 +39,31 @@
         </section>
 
         <section class="secao-com-texto" id="quem-somos">
-            <header>
-                <img src="src/images/logo-secoes.png">
-                <h2>Quem somos</h2>
-                <p>A origem da marca nasceu de um sonho em garimpar e oferecer aos nossos clientes cafés únicos e raros que eram apenas exportados ou simplesmente comercializados sem identidade ou valor agregado. Aqui você degustará bebidas de altíssima qualidade que levam a história de famílias dedicadas inteiramente à produção de cafés especiais. </p>
-            </header>
+            <div class="imagem"><img src="src/images/logo-secoes.png"></div>
+            <h2>Quem somos</h2>
+            <p>A origem da marca nasceu de um sonho em garimpar e oferecer aos nossos clientes cafés únicos e raros que
+                eram apenas exportados ou simplesmente comercializados sem identidade ou valor agregado. Aqui você
+                degustará bebidas de altíssima qualidade que levam a história de famílias dedicadas inteiramente à
+                produção de cafés especiais. </p>
         </section>
-
+        
         <section class="ladrilhos">
-            <div class="grande"></div>
-            <div class="pequeno"></div>
-            <div class="pequeno-grao"></div>
-            <div class="medio"></div>
+            <div class="ladrilho-grande">                
+            </div>
+            <div class="ladrilhos-menores">
+                <div class="pequeno"></div>
+                <div class="pequeno-grao"></div>
+                <div class="medio"></div>
+            </div>
         </section>
 
-        <section class="secao-com-texto onde-estamos" id="onde-estamos">
-            <header>
-                <img src="src/images/logo-secoes.png" alt="">
+        <section class="secao-com-texto" id="onde-estamos">           
+                <div class="imagem"><img src="src/images/logo-secoes.png" alt=""></div>
                 <h2>Onde Estamos</h2>
                 <p>
                     Avenida Brigadeiro Faria Lima, 444
                     São Paulo.
-                </p>
-            </header>
+                </p>          
         </section>
 
         <section class="contato" id="contato">
@@ -72,16 +78,17 @@
     </main>
 
     <footer class="rodape">
-
-        <a href="index.html" class="logo">
-            <img src="src/images/logo.jpg" alt="">
-        </a>
-
-        <ul>
-            <li><a href="#quem-somos">Quem Somos</a></li>
-            <li><a href="#onde-estamos">Onde estamos</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
+        
+        <div class="menu-roda-pe">
+            <a href="index.html" class="logo">
+                <img src="src/images/logo.jpg" alt="">
+            </a>
+            <ul>
+                <li><a href="#quem-somos">Quem Somos</a></li>
+                <li><a href="#onde-estamos">Onde estamos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
 
         <div class="conteudo-de-baixo">
 

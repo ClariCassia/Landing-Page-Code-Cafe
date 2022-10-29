@@ -1,181 +1,185 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600&display=swap');
-
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    max-width: 1440px;
-    margin: 0 auto;
-    font-size: 1.6rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 1.6rem;
 }
 
 .cabecalho {
-    padding: 30px 15px;
-    position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 15px;
 }
 
 .cabecalho .logo {
-    background: url(../images/logo.jpg) center center no-repeat;
-    width: 85px;
-    height: 85px;
-    display: inline-block;
-    font-size: 0;
+  background: url(../images/logo.jpg) center center no-repeat;
+  width: 85px;
+  height: 85px;
+  font-size: 0;
 }
 
-.cabecalho nav {
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    margin-top: 30px;
+.cabecalho ul {
+  display: flex;
 }
 
 .cabecalho ul li {
-    display: inline-block;
-    padding: 15px;
+  padding: 15px;
 }
 
 .cabecalho ul li a:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .painel {
-    background: url(../images/painel.jpg) center center no-repeat;
-    height: 600px;
+  background: url(../images/painel.jpg) center center no-repeat;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .painel h2 {
-    color: #FFF;
-    font-size: 60PX;
-    font-weight: 400;
-    text-align: center;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
 }
 
 .secao-com-texto {
-    padding: 153px;
-    text-align: center;
-    clear: both;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;  
 }
 
 .secao-com-texto img {
-    width: 170px;
-    height: 170px;
-    margin-bottom: 70px;
+  width: 170px;
+  height: 170px;
+  margin-bottom: 50px;
 }
 
 .secao-com-texto h2 {
-    font-size: 45px;
-    font-weight: 600;
-    margin-bottom: 37px;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 37px;
 }
 
 .secao-com-texto p {
-    font-size: 18px;
-    width: 702px;
-    margin: 0 auto;
+  font-size: 18px;
+  max-width: 702px;
+  text-align: center;
 }
 
-.secao-com-texto.onde-estamos p {
-    font-size: 28px;
-    width: 500px;
+
+.ladrilhos {
+  display: flex;
+  height: 600px;
 }
 
-.ladrilhos div {
-    float: left;
+.ladrilho-grande {
+  background: url(../images/4.jpg) center center no-repeat;
+  width: 50%;
 }
 
-.ladrilhos .grande {
-    background: url(../images/4.jpg) center center no-repeat;
-    height: 600px;
-    width: 50%;
+.ladrilhos-menores {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
 }
 
-.ladrilhos .pequeno {
-    background: url(../images/2.jpg) center center no-repeat;
-    height: 300px;
-    width: 25%;
+.ladrilhos-menores .pequeno {
+  background: url(../images/2.jpg) center center no-repeat;
+  width: 50%;
 }
 
-.ladrilhos .pequeno-grao {
-    background: url(../images/3.jpg) center center no-repeat;
-    height: 300px;
-    width: 25%;
+.ladrilhos-menores .pequeno-grao {
+  background: url(../images/3.jpg) center center no-repeat;
+  height: 300px;
+  width: 50%;
 }
 
-.ladrilhos .medio {
-    background: url(../images/1.jpg) center center no-repeat;
-    height: 300px;
-    width: 50%;
+.ladrilhos-menores .medio {
+  background: url(../images/1.jpg) center center no-repeat;
+  height: 300px;
+  width: 100%;
 }
 
 .contato {
-    background: url(../images/fundo-contato.jpg) center center no-repeat;
-    color: #FFF;
-    height: 600px;
-    position: relative;
+  background: url(../images/fundo-contato.jpg) center center no-repeat;
+  display: flex;
+  align-items: center; 
+  justify-content: end; 
+  color: #fff;
+  height: 600px;  
 }
 
 .contato h2 {
-    font-size: 45px;
-    font-weight: 600;
-    margin-bottom: 30px;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 
 .contato address {
-    font-size: 25px;
-    font-weight: 600;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 .texto {
-    position: absolute;
-    top: 30%;
-    left: 50%;
+    margin-right: 250px;
 }
 
 .rodape {
-    background: url(../images/fundo-rodape.jpg) center center no-repeat;
-    background-size: cover;
-    padding: 35px 30px;
+  background: url(../images/fundo-rodape.jpg) center center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;  
+  padding: 35px 30px;
 }
 
-.rodape ul li {
-    display: inline-block;
-    padding: 15px;
+.menu-roda-pe{  
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 30px;
+}
+
+.rodape ul{
+    display: flex;
+}
+
+.rodape ul li { 
+  padding: 15px;
 }
 
 .rodape ul li a {
-    color: #FFF;
+  color: #fff;
 }
-
 
 .rodape ul li a:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-.rodape ul {
-    float: right;
-    margin-top: 30px;
+.conteudo-de-baixo{
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+justify-content: space-between;
 }
+
 
 .rodape .copyright {
-    color: #FFF;
+  color: #fff;
 }
 
 .rodape .rede-sociais .facebook,
 .rodape .rede-sociais .instagram {
-    width: 20px;
-    height: 20px;
-    margin: 10px;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
 }
 
-.rodape .rede-sociais {
-    float: right;
-    clear: both;
-}
 
-.rodape .conteudo-de-baixo {
-    margin-top: 40px;
-}
+
