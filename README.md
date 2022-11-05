@@ -36,4 +36,4 @@ Neste projeto, aprimorei os conhecimentos no uso flebox e mediaquare on o projet
 
 ## Acesso a página
 
-Para ver o projeto pronto [clique aqui ](https://claricassia.github.io/Landing-Page-Huddle/)
+Para ver o projeto pronto [clique aqui ](https://claricassia.github.io/Landing-Page-Code-Cafe/)
