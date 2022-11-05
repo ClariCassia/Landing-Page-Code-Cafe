@@ -1,118 +1,119 @@
 @media (max-width: 992px) {
-
-    .secao-com-texto {
-        padding: 153px 25px;
-    }
-
-    .secao-com-texto p,
-    .secao-com-texto.onde-estamos p {
-        width: 100%;
-    }
-
-}
-
-@media (max-width: 768px) {
-
-    .contato {
-        background-image: none;
-        background: #D3AE71;
-    }
-
-    .contato .texto {
-        position: relative;
-        text-align: center;
-        top: 50%;
-        left: 0;
-        transform: translateY(-50%);
-    }
-
-    .texto h2 {
-        margin-bottom: 46px;
-    }
-}
-
-@media (max-width: 720px) {
-
-    .ladrilhos .grande,
-    .ladrilhos .medio {
-        width: 100%;
-    }
-
-    .ladrilhos .pequeno,
-    .ladrilhos .pequeno-grao {
-        width: 50%;
-    }
-
-    .rodape {
-        background-image: none;
-        background-color: #000000;
-        text-align: center;
-    }
-
-    .rodape .logo {
-        display: block;
-        margin-bottom: 122px;
-    }
-
-    .rodape ul {
-        display: block;
-        width: 100%;
-        margin-bottom: 122px;
-    }
-
-    .rodape ul li {
-        display: block;
-    }
-
-    .rodape ul li a {
-        font-size: 2rem;
-    }
-
-    .rodape .rede-sociais {
-        float: none;
-        margin-bottom: 28px;
-    }
-}
-
-@media (max-width: 425px) {
-
-    .cabecalho .logo {
-        display: block;
-        margin: 0 auto;
-    }
-
-    .cabecalho nav {
-        position: static;
-        text-align: center;
-        width: 100%;
-    }
-
-    .cabecalho nav ul li {
-        display: block;
-    }
-
-    .cabecalho nav ul li a {
-        display: block;
-        width: 100%;
-    }
-
     .painel h2 {
-        font-size: 2.5rem;
+      text-align: center;
+      font-size: 5rem;
     }
-
+  
+    .secao-com-texto p {
+      line-height: 2.8rem;
+    }
+  
+    .secao-com-texto .texto {
+      font-size: 2.5rem;
+    }
+  
+    .texto-contato {
+      margin-right: 10%;
+    }
+  }
+  
+  @media (max-width: 720px) {
+    .painel h2 {
+      font-size: 4.5rem;
+    }
+  
+    .ladrilhos {
+      flex-wrap: wrap;
+    }
+  
+    .texto-contato {
+      margin-right: 0;
+    }
+  
+    .contato {
+      background-image: none;
+      background: #d3ae71;
+      text-align: center;
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .cabecalho {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .cabecalho ul {
+      flex-direction: column;
+      margin-top: 5.2rem;
+    }
+  
+    .cabecalho ul li {
+      margin: 2rem;
+    }
+  
+    .painel {
+      margin: 0;
+    }
+  
+    .painel h2 {
+      font-size: 2.5rem;
+    }
+  
+    .secao-com-texto {
+      margin-top: 2rem;
+    }
+  
+    .secao-com-texto img {
+      margin-bottom: 3rem;
+    }
+  
     .secao-com-texto h2 {
-        font-size: 3rem;
+      font-size: 3rem;
+      margin-bottom: 3rem;
     }
-
-    .secao-com-texto.onde-estamos p {
-        font-size: 2rem;
+  
+    .secao-com-texto p {
+      font-size: 1.8rem;
+      line-height: 2.5rem;
+      text-align: center;
+      padding: 2rem;
     }
-}
-
-@media (max-width: 375px) {
-
-    .ladrilhos .pequeno,
-    .ladrilhos .pequeno-grao {
-        width: 100%;
+  
+    .secao-com-texto .texto {
+      font-size: 2rem;
+      text-align: center;
     }
-}
+  
+    .ladrilhos-pequenos {
+      flex-direction: column;
+      min-width: 100%;
+    }
+  
+    .texto-contato address {
+      font-size: 2rem;
+    }
+    .menu-roda-pe {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .rodape ul {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 5rem;
+    }
+  
+    .conteudo-de-baixo {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .secao-com-texto p {
+      font-size: 1.6rem;
+    }
+  }
+  
