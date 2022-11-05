@@ -11,7 +11,7 @@
 
 ## Sobre o projeto
 
-Esse desafio um exercicio do curso **Dev Quest**, realizado pelo  [Dev-em-Dobro](https://www.youtube.com/c/DevemDobro "Site da DevSuperior"). consiste em uma landing page tanto para desktop, table e mobile construída com flex.
+Esse desafio um exercícío do curso **Dev Quest**, realizado pelo [Dev-em-Dobro](https://www.youtube.com/c/DevemDobro "Site da DevSuperior"). E consiste em uma landing page tanto para desktop, table e mobile construída com flex. 
 A mudança entre os layouts é um bom teste para treino de projetos responsivos.
 
  ## Layout web
