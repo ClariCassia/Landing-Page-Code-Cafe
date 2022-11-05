@@ -18,13 +18,13 @@ A mudança entre os layouts é um bom teste para treino de projetos responsivos.
 
 <br>
 
-
+<img src="src/images/página-desktop.gif" alt="">
 
 ## Layout mobile
 
 <br>
 
- 
+ <img src="src/images/página-mobile.gif" alt="">
 
 ## Tecnologias utilizadas
 
